@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="160" viewBox="0 0 760 160" role="img" aria-label="Nixort - systems and native developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f74c00"/>
+      <stop offset="50%" stop-color="#00add8"/>
+      <stop offset="100%" stop-color="#8b89cc"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="160" rx="12" fill="url(#bg)"/>
+  <rect x="0" y="0" width="760" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="40" y="72" font-family="'Courier New', monospace" font-size="42" font-weight="bold" fill="#e6edf3">
+    Nixort
+  </text>
+  <text x="40" y="102" font-family="'Courier New', monospace" font-size="16" fill="#8b949e">
+    systems &amp; native developer
+  </text>
+  <text x="40" y="128" font-family="'Courier New', monospace" font-size="13" fill="#6e7681">
+    rust · c/c++ · asm · go · python · bash · kotlin · dart
+  </text>
+
+  <g font-family="'Courier New', monospace" font-size="12" fill="#484f58">
+    <text x="560" y="56">0x00401000</text>
+    <text x="560" y="76">push   rbp</text>
+    <text x="560" y="96">mov    rbp, rsp</text>
+    <text x="560" y="116">call   main</text>
+  </g>
+</svg>
