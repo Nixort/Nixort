@@ -1,0 +1,41 @@
+name: Refresh profile statistics
+
+on:
+  schedule:
+    - cron: "20 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh terminal profile statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_OWNER: Nixort
+        run: python scripts/update_profile_stats.py
+
+      - name: Commit refreshed statistics
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- README.md; then
+            echo "Profile statistics are already current."
+            exit 0
+          fi
+          git config user.name "Nixort"
+          git config user.email "nixort@proton.me"
+          git add README.md
+          git commit -m "chore(profile): refresh daily statistics"
+          git push
