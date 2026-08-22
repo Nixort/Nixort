@@ -1,6 +1,6 @@
 ```ini
 ; nixort@github:~$ profile --live
-; refreshed = 2026-08-21 UTC
+; refreshed = 2026-08-22 UTC
 
 [profile]
 role = "systems & security engineering"
@@ -13,12 +13,12 @@ platforms = "Linux · x86-64 · ARM64 · Docker"
 [public_activity]
 repositories = 11
 total_stars = 17
-contributions_last_year = 334
-source_commits_scanned = 191
-lines_added_git = "+82,013"
-lines_removed_git = "-5,508"
-net_lines_changed = "+76,505"
-trend_last_12_weeks = "▁▁▁█▁▂▁▁▁▁▁▃"
+contributions_last_year = 341
+source_commits_scanned = 197
+lines_added_git = "+88,191"
+lines_removed_git = "-6,451"
+net_lines_changed = "+81,740"
+trend_last_12_weeks = "▁▁▁█▁▂▁▁▁▁▁▄"
 
 [contact]
 email = "nixort@proton.me"
