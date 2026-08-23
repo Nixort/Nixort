@@ -1,6 +1,6 @@
 ```ini
 ; nixort@github:~$ profile --live
-; refreshed = 2026-08-22 UTC
+; refreshed = 2026-08-23 UTC
 
 [profile]
 role = "systems & security engineering"
@@ -11,19 +11,19 @@ languages = "Rust · C · C++ · Go · Python · Bash"
 platforms = "Linux · x86-64 · ARM64 · Docker"
 
 [public_activity]
-repositories = 11
-total_stars = 17
-contributions_last_year = 341
-source_commits_scanned = 197
-lines_added_git = "+88,191"
-lines_removed_git = "-6,451"
-net_lines_changed = "+81,740"
-trend_last_12_weeks = "▁▁▁█▁▂▁▁▁▁▁▄"
+repositories = 12
+total_stars = 19
+contributions_last_year = 350
+source_commits_scanned = 204
+lines_added_git = "+122,149"
+lines_removed_git = "-6,513"
+net_lines_changed = "+115,636"
+trend_last_12_weeks = "▁▁█▁▂▁▁▁▁▁▄▁"
 
 [contact]
 email = "nixort@proton.me"
 principle = "correctness before speed"
 
 [scope]
-source_repositories = 10
+source_repositories = 11
 ```
